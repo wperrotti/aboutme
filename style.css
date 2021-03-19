@@ -6,18 +6,28 @@ body {
   	margin: 0 15% 0; 
 }
 
+body::-webkit-scrollbar {
+	width: 0.99rem;
+}
+body::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+	background: #EA04EA;
+}
+main{
+	margin-left: 5rem;
+	padding: 1rem;
+}
+
 header {  
 	text-align: center;  
 	margin-top: 0;
-  	padding: 3em 1em 2em 1em;
+  	
 	background-color: #20124F;
 }
-.navbar{
-width:5rem;
-	height: 100vh;
-	postion: fixed;
-	background-color: var(--bg-primary);
-}
+
+
 nav, footer {
   font-family: verdana, sans-serif;
   
