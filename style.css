@@ -51,6 +51,14 @@ nav li{
  padding-right: 25px;
 }
 
+nav a {
+ text-decoration:none;
+}
+
+nav a: hover {
+ color: #000;
+}
+
 nav, footer {
   font-family: verdana, sans-serif;
   
