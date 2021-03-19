@@ -10,17 +10,17 @@ header {
 	text-align: center;  
 	margin-top: 0;
   	padding: 3em 1em 2em 1em;
-	background-color: #cc5500;
+	background-color: #20124F;
 }
 nav, footer {
   font-family: verdana, sans-serif;
   
 }
 nav ul li a:link, nav ul li a:visited {
-  color: #000000;
+  color: #FFF;
 }
 nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
-  color: #FFF;
+  color: #EA04EA;
 }
 nav ul li {
   font-size: .8em;
@@ -28,4 +28,9 @@ nav ul li {
   letter-spacing: .2em;
 }
 
-h2, h3 {  text-align: center}
+
+.first{
+	font-size: 200%;
+}
+
+#intro img {  float: right;   margin: 0 12px;}
