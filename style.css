@@ -12,6 +12,12 @@ header {
   	padding: 3em 1em 2em 1em;
 	background-color: #20124F;
 }
+.navbar{
+width:5rem;
+	height: 100vh;
+	postion: fixed;
+	background-color: var(--bg-primary);
+}
 nav, footer {
   font-family: verdana, sans-serif;
   
