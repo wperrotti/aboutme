@@ -1,32 +1,35 @@
-body {  
-	background-color: white;  
-  	font-family: Georgia, serif;
-  	font-size: 100%;
-  	line-height: 175%;
-  	margin: 0 15% 0; 
-}
-
-body::-webkit-scrollbar {
-	width: 0.99rem;
-}
-body::-webkit-scrollbar-track {
-	background: #1e1e24;
 }
 body::-webkit-scrollbar-thumb {
 	background: #EA04EA;
 }
-main{
-	margin-left: 5rem;
-	padding: 1rem;
+
+.container {
+ width: 100%;
 }
 
 header {  
-	text-align: center;  
-	margin-top: 0;
-  	
 	background-color: #20124F;
 }
 
+header::after {
+ content: '';
+ display: table;
+ clear:both;
+}
+
+.logo{
+ float:left;
+}
+
+nav {
+ float:right;
+}
+
+nav ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
 
 nav, footer {
   font-family: verdana, sans-serif;
