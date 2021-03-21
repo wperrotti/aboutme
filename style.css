@@ -97,14 +97,13 @@ img.center {
 
 .row{
  clear:both;
- margin-left: 350px;
+ margin-left: 400px;
 
  color: black;
- width: 800px;
+ width: 600px;
  height: 300px;
  border: 4px dashed #EA04EA;
  border-width: 5px 5px;
- border-image: url(dotborder.png) 20 10 repeat;
 }
 
 .column{
