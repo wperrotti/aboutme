@@ -42,7 +42,190 @@ header::after {
 /* navigation bar style */
 nav {
  float:right;
+}/*body style*/
+body {  
+	background-color: white;  
+  	font-family: Georgia, serif;
+  	font-size: 100%;
+  	line-height: 175%;
+  	margin: 0 15% 0;
 }
+
+/*scrollbar style*/
+body::-webkit-scrollbar {
+	width: 0.99rem;
+}
+body::-webkit-scrollbar-track {
+	background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb {
+	background: #EA04EA;
+}
+
+/*holds entire header and displays desired width*/
+.container {
+ width: 100%;
+}
+
+/* header styles */
+header {  
+	background-color: #20124F;
+}
+
+header::after {
+ content: '';
+ display: table;
+ clear:both;
+}
+
+/*displays pink hardhat logo in nav bar to the left*/
+.logo{
+ float:left;
+}
+
+/* navigation bar style */
+nav {
+ float:right;
+}
+
+nav ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+nav li{
+ display: inline-block;
+ margin-left: 70px;
+ padding-top: 45px;
+ padding-right: 10px;
+}
+
+nav a {
+ text-decoration:none;
+}
+
+nav, footer {
+  font-family: verdana, sans-serif;
+  
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #FFF;
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #EA04EA;
+}
+
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+}
+
+/* link styles */
+a:link, a:visited { color: #EA04EA; }
+a:focus, a:hover, a:active { color: #1e1e24; }
+
+a {
+  text-decoration: none;
+  padding-bottom: .2em;
+}
+
+/*Makes font large, used for title of pages*/
+.first {
+ font-size: 200%;
+}
+
+/*Moves images to the right of text*/
+#intro img { 
+ float: right;   
+ margin: 0 12px;
+}
+
+/* centers text */
+.center {
+ text-align:center;
+}
+
+/* centers images */
+img.center {
+ display: block;
+ margin: 0 auto;
+}
+
+/*Displays the tools list in the drywall repair page side by side*/
+.row{
+ clear:both;
+ margin-left: 400px;
+ color: black;
+ width: 600px;
+ height: 240px;
+ border: 4px dashed #EA04EA;
+ border-width: 5px 5px;
+}
+/*Displays the tools list in the drywall repair page side by side*/
+.column{
+    width: 50%;
+    float: left;
+}
+
+/*centers video*/
+iframe {
+  display: block;
+  margin: auto;
+}
+
+/*Displays contact icons and spaces them*/
+.contacts{ 
+ display: inline;
+ justify-content: space-between;
+ margin-left: 155px;
+ padding-top: 45px;
+ padding-right: 25px;
+}
+
+/*Makes text cursive*/
+.cursive {	
+   font-family: brush script mt;
+font-size: 400%;
+}
+
+/* footer style */
+footer {
+  color: white;
+  background-color: #20124F;
+  text-align: center;
+  font-size: .8em;
+  padding: 1em;
+}
+
+/* main styles */
+main {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+  line-height: 1.8em;
+  color: black;
+  padding: .5em;
+  border: double 4px black;
+  border-radius: 25px;
+  margin: 2.5%;
+}
+
+/* header 3 style */
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: black;
+  margin-top: 2em;
+}
+
+/* paragraph font style */
+p {
+font-family: verdana, sans-serif;
+}
+
+
+
 
 nav ul{
  margin: 0;
