@@ -151,3 +151,29 @@ footer {
   font-size: .8em;
   padding: 1em;
 }
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+/* main styles */
+main {
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
+  line-height: 1.8em;
+  color: black;
+  padding: .5em;
+  border: double 4px black;
+  border-radius: 25px;
+  margin: 2.5%;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: black;
+  margin-top: 2em;
+}
+
