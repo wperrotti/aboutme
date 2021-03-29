@@ -1,11 +1,13 @@
+/*body style*/
 body {  
 	background-color: white;  
   	font-family: Georgia, serif;
   	font-size: 100%;
   	line-height: 175%;
-  	margin: 0 15% 0; 
+  	margin: 0 15% 0;
 }
 
+/*scrollbar style*/
 body::-webkit-scrollbar {
 	width: 0.99rem;
 }
@@ -16,10 +18,12 @@ body::-webkit-scrollbar-thumb {
 	background: #EA04EA;
 }
 
+/*Holds ___*/
 .container {
  width: 100%;
 }
 
+/* header styles */
 header {  
 	background-color: #20124F;
 }
@@ -30,10 +34,12 @@ header::after {
  clear:both;
 }
 
+/*displays pink hardhat logo in nav bar to the left*/
 .logo{
  float:left;
 }
 
+/* navigation bar style */
 nav {
  float:right;
 }
@@ -48,15 +54,11 @@ nav li{
  display: inline-block;
  margin-left: 70px;
  padding-top: 45px;
- padding-right: 25px;
+ padding-right: 10px;
 }
 
 nav a {
  text-decoration:none;
-}
-
-nav a: hover {
- color: #000;
 }
 
 nav, footer {
@@ -74,22 +76,34 @@ nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
 nav ul li {
   font-size: .8em;
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: .3em;
+}
+
+/* link styles */
+a:link, a:visited { color: #EA04EA; }
+a:focus, a:hover, a:active { color: #1e1e24; }
+
+a {
+  text-decoration: none;
+  padding-bottom: .2em;
 }
 
 .first {
  font-size: 200%;
 }
 
+/*Makes top heading font bigger*/
 #intro img { 
  float: right;   
  margin: 0 12px;
 }
 
+/* centers text */
 .center {
  text-align:center;
 }
 
+/* centers images */
 img.center {
  display: block;
  margin: 0 auto;
@@ -98,7 +112,6 @@ img.center {
 .row{
  clear:both;
  margin-left: 400px;
-
  color: black;
  width: 600px;
  height: 240px;
@@ -111,7 +124,30 @@ img.center {
     float: left;
 }
 
+/*centers videos*/
 iframe {
   display: block;
   margin: auto;
+}
+
+.contacts{ 
+ display: inline;
+ justify-content: space-between;
+ margin-left: 155px;
+ padding-top: 45px;
+ padding-right: 25px;
+}
+
+.cursive {	
+   font-family: brush script mt;
+font-size: 400%;
+}
+
+/* footer style */
+footer {
+  color: white;
+  background-color: #20124F;
+  text-align: center;
+  font-size: .8em;
+  padding: 1em;
 }
